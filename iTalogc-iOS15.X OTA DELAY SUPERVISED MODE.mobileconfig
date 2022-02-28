@@ -11,37 +11,11 @@
 		<array>
 			<dict>
 				<key>allowDeprecatedWebKitTLS</key>
-				<true />
+				<false/>
 				<key>allowManagedToWriteUnmanagedContacts</key>
-				<true />
+				<false/>
 				<key>allowUnmanagedToReadManagedContacts</key>
-				<true />
-				<key>allowUnpairedExternalBootToRecovery</key>
-				<true />
-				<key>enforcedFingerprintTimeout</key>
-				<integer>0</integer>
-				<key>enforcedSoftwareUpdateDelay</key>
-				<integer>90</integer>
-				<key>enforcedSoftwareUpdateMajorOSDeferredInstallDelay</key>
-				<integer>90</integer>
-				<key>enforcedSoftwareUpdateMinorOSDeferredInstallDelay</key>
-				<integer>90</integer>
-				<key>enforcedSoftwareUpdateNonOSDeferredInstallDelay</key>
-				<integer>90</integer>
-				<key>forceAirPlayIncomingRequestsPairingPassword</key>
-				<false />
-				<key>forceClassroomAutomaticallyJoinClasses</key>
-				<true />
-				<key>forceClassroomUnpromptedAppAndDeviceLock</key>
-				<true />
-				<key>forceClassroomUnpromptedScreenObservation</key>
-				<true />
-				<key>forceDelayedAppSoftwareUpdates</key>
-				<true />
-				<key>forceDelayedMajorSoftwareUpdates</key>
-				<true />
-				<key>forceDelayedSoftwareUpdates</key>
-				<true />
+				<false/>
 				<key>PayloadDisplayName</key>
 				<string>Restrictions</string>
 				<key>PayloadIdentifier</key>
@@ -52,25 +26,8 @@
 				<string>7285a869-7410-449a-b1d9-68c2e5d43524</string>
 				<key>PayloadVersion</key>
 				<integer>1</integer>
-				<key>ratingApps</key>
-				<integer>1000</integer>
-				<key>ratingMovies</key>
-				<integer>1000</integer>
-				<key>ratingTVShows</key>
-				<integer>1000</integer>
-			</dict>
-			<dict>
-				<key>PayloadDisplayName</key>
-				<string>Passcode</string>
-				<key>PayloadIdentifier</key>
-				<string>com.apple.mobiledevice.passwordpolicy.350e9336-af97-4c38-8a5a-978c728f6662</string>
-				<key>PayloadType</key>
-				<string>com.apple.mobiledevice.passwordpolicy</string>
-				<key>PayloadUUID</key>
-				<string>350e9336-af97-4c38-8a5a-978c728f6662</string>
-				<key>PayloadVersion</key>
-				<integer>1</integer>
-			</dict>
+			
+		
 		</array>
 		<key>PayloadDescription</key>
 		<string>Após instalar este perfil o seu aparelho ficará no modo supervisionado. Com isso você desbloqueará 200 novas restrições da apple no seu aparelho e, além disso, poderá atualizar normalmente seu dispositivo ios para versões de OTA DELAY normalmente direto do servidor de autenticação oficial da apple, mesmo que essas versões do ios não estejam mais assinadas oficialmente pela empresa.</string>
